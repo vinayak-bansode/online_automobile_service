@@ -1,0 +1,38 @@
+ [
+    {
+      "Name": "Shree Sidhhnath Auto Garage",
+      "color": "black",
+      "number": 9860607764,
+      "address": "Shop No 2, Ambegaon BK, Pune, Maharashtra 411046",
+      "imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcObMyCb7WWqccO2KydU7Iy-d91cPFDHwYeQ&usqp=CAU"
+    },
+    {
+      "Name": "Sri Nath Auto Garage",
+      "color": "black",
+      "number": 9850791552,
+      "address": "Shop No 3, Ambegaon Pathar, Silver Park, Pune, Maharashtra 411046",
+      "mapurl": "https://www.google.com/maps/dir/18.4632904,73.8371978/2,+Shriram+Nagar,+Ambegaon+BK,+Pune,+Maharashtra+411046/@18.4585578,73.835218,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2eacaf105bd45:0x107e3ac2389a840!2m2!1d73.8443701!2d18.4577071",
+      "imgurl":"https://content.jdmagicbox.com/comp/nashik/r6/0253px253.x253.160407155315.t6r6/catalogue/shree-sainath-auto-services-savta-nagar-nashik-motorcycle-dealers-m00i9httcl-250.jpg"
+    },
+    {
+      "Name": "Dattakrupa Auto Garage",
+      "color": "black",
+      "number": 9922799590,
+      "address": "Shop No 1 Ganesh Chowk, Dhankawadi, Pune, Maharashtra 411046",
+      "mapurl": "https://www.google.com/maps/dir/18.4632904,73.8371978/Silver+Park+II,+Mumbai+Pune+Bypass+Rd,+Raghav+Nagar,+Ambegaon+BK,+Pune,+Maharashtra+411046/@18.4585607,73.8336727,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc295355e6b019f:0x19c5bf14a7e370e!2m2!1d73.8405383!2d18.4590327"
+   ,  "imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBsnz1G88-cY4WnX3N1Stdj-H7_b1HrmfcQ&usqp=CAU"
+    },{
+      "Name": "JANTA GARAGE",
+      "color": "black",
+      "number": 9922799590,
+      "address": "FR4F+FV8, Navale Hospital Rd, Khedekar Nagar, Narhe, Pune, Maharashtra 411041",
+      "mapurl": "https://www.google.com/maps/dir/18.4632904,73.8371978/Navale+Hospital+Rd,+Khedekar+Nagar,+Narhe,+Pune,+Maharashtra+411041/@18.4589105,73.8218372,15z/data=!3m1!4b1!4m18!1m8!3m7!1s0x3bc29538cbeb14e9:0xadbfbb32a75f5a56!2sNavale+Hospital+Rd,+Khedekar+Nagar,+Narhe,+Pune,+Maharashtra+411041!3b1!8m2!3d18.4549247!4d73.8248485!16s%2Fg%2F11lfcvtbgx!4m8!1m1!4e1!1m5!1m1!1s0x3bc29538cbeb14e9:0xadbfbb32a75f5a56!2m2!1d73.8247646!2d18.4553515"
+   , "imgurl":"https://content3.jdmagicbox.com/comp/pune/k5/020pxx20.xx20.160224110203.x1k5/catalogue/janta-garage-kharadi-pune-motorcycle-repair-and-services-8a692.jpg" },
+    {
+      "Name": "Renuka Auto Garage",
+      "color": "black",
+      "number": 8087706816,
+      "address": "Bus Stop, Shop No 3, Dhankawdi Last, Pune, Maharashtra 411043",
+      "mapurl": "https://www.google.com/maps/dir/18.4632904,73.8371978/Shop+No+1,+Main+Road,+Ambegaon+Pathar,+Suvarnayug+Nagar,+Pune,+Maharashtra+411043/@18.4585607,73.8342172,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2ebe192dd2539:0xae6c7820c2b57c95!2m2!1d73.8423687!2d18.462989"
+   ,"imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjbuXf5ymd5ZtTyJUF0xhIoThLAnA6FOT4OA&usqp=CAU" }
+  ]

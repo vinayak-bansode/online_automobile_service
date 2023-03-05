@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "900229099014",
+    "project_id": "garrageonlineservice",
+    "storage_bucket": "garrageonlineservice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900229099014:android:1a2d0fa79545f503215d87",
+        "android_client_info": {
+          "package_name": "com.example.online_automobile_service"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900229099014-9qfcb55c40httn6l2n0vhkrkkfvecgb7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.online_automobile_service",
+            "certificate_hash": "7fd25912ac9f22d26c79cc9731ead7e0c10cbe00"
+          }
+        },
+        {
+          "client_id": "900229099014-4i7ofej9hj8k01ku0s84or0l3cp3p713.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH-UCG_ieG7Iaw0qjQN0PT0NFt6TOVdfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900229099014-4i7ofej9hj8k01ku0s84or0l3cp3p713.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
