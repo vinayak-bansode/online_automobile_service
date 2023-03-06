@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../services/services.dart';
@@ -93,9 +95,10 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 const SizedBox(height: 40),
                 InkWell(
-                  onTap: () {
+                  onTap: () async {
                     if (_formKey.currentState!.validate()) {
                       _formKey.currentState!.save();
+                      await AuthService().signinWithGoogle();
                       Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(

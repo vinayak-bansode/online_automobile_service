@@ -1,7 +1,10 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'dart:io';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:online_automobile_service/Screens/login.dart';
 import 'package:online_automobile_service/styles/colors.dart';
 
 import '../services/services.dart';
@@ -76,7 +79,11 @@ class Profile extends StatelessWidget {
               InkWell(
                 onTap: () async {
                   await AuthService().signOut();
-                  exit(0);
+                  Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => LoginPage(),
+                      ));
                 },
                 child: Container(
                   width: 200,
