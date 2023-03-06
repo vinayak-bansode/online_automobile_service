@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:online_automobile_service/Screens/dashboard.dart';
+import 'package:online_automobile_service/Screens/main_page.dart';
 import '../styles/colors.dart';
 
 class SignupPage extends StatefulWidget {
@@ -85,7 +86,7 @@ class _SignupPageState extends State<SignupPage> {
                     onTap: () => Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const Dashboard(),
+                          builder: (context) => const MainScreen(),
                         )),
                     child: Container(
                       width: 150,

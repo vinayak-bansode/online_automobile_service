@@ -24,7 +24,7 @@ class Help extends StatelessWidget {
                           fontSize: 20,
                         )),
                     SizedBox(height: 10),
-                    Text("Sumit Chnadra", style: blackstyle),
+                    Text("Sumit Chandra", style: blackstyle),
                     SizedBox(height: 10),
                     Text("sumitchandra478@gmail.com", style: blackstyle),
                     SizedBox(height: 20),

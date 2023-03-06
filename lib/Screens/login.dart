@@ -1,9 +1,5 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:online_automobile_service/Screens/dashboard.dart';
-import 'package:online_automobile_service/Screens/home_appbar.dart';
-
 import '../services/services.dart';
 import '../styles/colors.dart';
 import 'main_page.dart';
@@ -48,7 +44,7 @@ class _LoginPageState extends State<LoginPage> {
                   child: Column(
                     children: [
                       TextFormField(
-                        style: const TextStyle(color: Colors.white),
+                        style: const TextStyle(color: Colors.black),
                         keyboardType: TextInputType.emailAddress,
                         decoration: const InputDecoration(
                           filled: true,
@@ -71,7 +67,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       const SizedBox(height: 20),
                       TextFormField(
-                        style: const TextStyle(color: Colors.white),
+                        style: const TextStyle(color: Colors.black),
                         obscureText: true,
                         decoration: const InputDecoration(
                           filled: true,
@@ -100,10 +96,10 @@ class _LoginPageState extends State<LoginPage> {
                   onTap: () {
                     if (_formKey.currentState!.validate()) {
                       _formKey.currentState!.save();
-                      Navigator.push(
+                      Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const Dashboard(),
+                            builder: (context) => const MainScreen(),
                           ));
                     }
                   },
@@ -132,10 +128,11 @@ class _LoginPageState extends State<LoginPage> {
                   return InkWell(
                     onTap: () async {
                       await AuthService().signinWithGoogle();
+                      // ignore: use_build_context_synchronously
                       Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => MainScreen(),
+                            builder: (context) => const MainScreen(),
                           ));
                     },
                     child: Padding(
