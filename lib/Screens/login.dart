@@ -48,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
                   child: Column(
                     children: [
                       TextFormField(
-                        style: const TextStyle(color: Colors.white),
+                        style: const TextStyle(color: Colors.black),
                         keyboardType: TextInputType.emailAddress,
                         decoration: const InputDecoration(
                           filled: true,
@@ -71,7 +71,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       const SizedBox(height: 20),
                       TextFormField(
-                        style: const TextStyle(color: Colors.white),
+                        style: const TextStyle(color: Colors.black),
                         obscureText: true,
                         decoration: const InputDecoration(
                           filled: true,
@@ -100,10 +100,10 @@ class _LoginPageState extends State<LoginPage> {
                   onTap: () {
                     if (_formKey.currentState!.validate()) {
                       _formKey.currentState!.save();
-                      Navigator.push(
+                      Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const Dashboard(),
+                            builder: (context) => const MainScreen(),
                           ));
                     }
                   },

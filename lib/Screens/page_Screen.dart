@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:online_automobile_service/Screens/dashboard.dart';
+import 'package:online_automobile_service/Screens/items.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
 
@@ -71,22 +72,31 @@ class _IconclassState extends State<Iconclass> {
                   )
                 ],
               ),
-              Column(
-                children: [
-                  SizedBox(
-                    height: 60,
-                    width: 60,
-                    child: Image.network(
-                        'https://cdn-icons-png.flaticon.com/512/1835/1835942.png'),
-                  ),
-                  const Text(
-                    'Autombl Store',
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 15),
-                  )
-                ],
+              InkWell(
+                onTap: (() {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const Garrageitem(),
+                      ));
+                }),
+                child: Column(
+                  children: [
+                    SizedBox(
+                      height: 60,
+                      width: 60,
+                      child: Image.network(
+                          'https://cdn-icons-png.flaticon.com/512/1835/1835942.png'),
+                    ),
+                    const Text(
+                      'Autombl Store',
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15),
+                    )
+                  ],
+                ),
               ),
             ],
           ),
