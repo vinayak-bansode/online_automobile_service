@@ -3,6 +3,8 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:online_automobile_service/Screens/dashboard.dart';
+import 'package:online_automobile_service/Screens/storeitem.dart';
+import 'package:online_automobile_service/Screens/washing.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
 
@@ -54,100 +56,120 @@ class _IconclassState extends State<Iconclass> {
                   ],
                 ),
               ),
-              Column(
-                children: [
-                  SizedBox(
-                    height: 60,
-                    width: 60,
-                    child: Image.network(
-                        'https://cdn-icons-png.flaticon.com/512/9200/9200829.png'),
-                  ),
-                  const Text(
-                    'Car Wash',
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 15),
-                  )
-                ],
+              InkWell(
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const TimeSlotSelectionScreen(),
+                    )),
+                child: Column(
+                  children: [
+                    SizedBox(
+                      height: 60,
+                      width: 60,
+                      child: Image.network(
+                          'https://cdn-icons-png.flaticon.com/512/9200/9200829.png'),
+                    ),
+                    const Text(
+                      'Car Wash',
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15),
+                    )
+                  ],
+                ),
               ),
-              Column(
-                children: [
-                  SizedBox(
-                    height: 60,
-                    width: 60,
-                    child: Image.network(
-                        'https://cdn-icons-png.flaticon.com/512/1835/1835942.png'),
-                  ),
-                  const Text(
-                    'Autombl Store',
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 15),
-                  )
-                ],
+              InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Storeitem()));
+                },
+                child: Column(
+                  children: [
+                    SizedBox(
+                      height: 60,
+                      width: 60,
+                      child: Image.network(
+                          'https://cdn-icons-png.flaticon.com/512/1835/1835942.png'),
+                    ),
+                    const Text(
+                      'Autombl Store',
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15),
+                    )
+                  ],
+                ),
               ),
             ],
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.all(30.0),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Column(
-                children: [
-                  SizedBox(
-                    height: 60,
-                    width: 60,
-                    child: Image.network(
-                        'https://cdn-icons-png.flaticon.com/512/3418/3418144.png'),
-                  ),
-                  const Text(
-                    'Bike Repairing',
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 15),
-                  )
-                ],
-              ),
-              Column(
-                children: [
-                  SizedBox(
-                    height: 60,
-                    width: 60,
-                    child: Image.network(
-                        'https://cdn-icons-png.flaticon.com/512/5617/5617929.png'),
-                  ),
-                  const Text(
-                    'Bike Wash',
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 15),
-                  )
-                ],
-              ),
-              Column(
-                children: [
-                  SizedBox(
-                    height: 60,
-                    width: 60,
-                    child: Image.network(
-                        'https://cdn-icons-png.flaticon.com/512/1818/1818885.png'),
-                  ),
-                  const Text(
-                    'Bike Store',
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 15),
-                  )
-                ],
-              ),
-            ],
+        InkWell(
+          onTap: () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const Dashboard(),
+              )),
+          child: Padding(
+            padding: const EdgeInsets.all(30.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Column(
+                  children: [
+                    SizedBox(
+                      height: 60,
+                      width: 60,
+                      child: Image.network(
+                          'https://cdn-icons-png.flaticon.com/512/3418/3418144.png'),
+                    ),
+                    const Text(
+                      'Bike Repairing',
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15),
+                    )
+                  ],
+                ),
+                Column(
+                  children: [
+                    SizedBox(
+                      height: 60,
+                      width: 60,
+                      child: Image.network(
+                          'https://cdn-icons-png.flaticon.com/512/5617/5617929.png'),
+                    ),
+                    const Text(
+                      'Bike Wash',
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15),
+                    )
+                  ],
+                ),
+                Column(
+                  children: [
+                    SizedBox(
+                      height: 60,
+                      width: 60,
+                      child: Image.network(
+                          'https://cdn-icons-png.flaticon.com/512/1818/1818885.png'),
+                    ),
+                    const Text(
+                      'Bike Store',
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15),
+                    )
+                  ],
+                ),
+              ],
+            ),
           ),
         ),
         InkWell(
