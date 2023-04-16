@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:online_automobile_service/Screens/dashboard.dart';
 import 'package:online_automobile_service/Screens/home_appbar.dart';
 
 class TimeSlotSelectionScreen extends StatefulWidget {
@@ -49,7 +50,11 @@ class _TimeSlotSelectionScreenState extends State<TimeSlotSelectionScreen> {
                 ? null
                 : () {
                     // Save the selected time slot here
-                    Navigator.pop(context);
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const Dashboard(),
+                        ));
                   },
             child: const Text('Save'),
           ),

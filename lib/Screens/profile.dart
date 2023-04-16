@@ -54,21 +54,43 @@ class Profile extends StatelessWidget {
                       const SizedBox(
                         height: 10,
                       ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [
-                          Icon(Icons.history),
-                          Text(
-                            "Order History",
-                            style: TextStyle(
-                              color: black,
-                              fontSize: 18,
-                              fontStyle: FontStyle.normal,
-                              fontWeight: FontWeight.w800,
+                      MaterialButton(
+                        onPressed: () {
+                          showDialog(
+                            context: context,
+                            builder: (BuildContext context) {
+                              return AlertDialog(
+                                title: Text('No order found'),
+                                actions: [
+                                  Image.asset(
+                                      'assets/images/thank-you-animaiton.gif'),
+                                  TextButton(
+                                    child: Text('OK'),
+                                    onPressed: () {
+                                      Navigator.of(context).pop();
+                                    },
+                                  ),
+                                ],
+                              );
+                            },
+                          );
+                        },
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: const [
+                            Icon(Icons.history),
+                            Text(
+                              "Order History",
+                              style: TextStyle(
+                                color: black,
+                                fontSize: 18,
+                                fontStyle: FontStyle.normal,
+                                fontWeight: FontWeight.w800,
+                              ),
                             ),
-                          ),
-                        ],
-                      ),
+                          ],
+                        ),
+                      )
                     ],
                   )
                 ],

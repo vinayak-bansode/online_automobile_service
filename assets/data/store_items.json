@@ -38,5 +38,25 @@
     "Name": "Suzuki Motorcycle Drum Rubber",
     "price": 48,
     "imgurl": "https://5.imimg.com/data5/CV/CG/IU/SELLER-7203070/bike-drum-rubber-500x500.jpg"
+  },
+  {
+    "Name": "Mirror",
+    "price": 184,
+    "imgurl": "https://storage.googleapis.com/spares/images/parts/6XAJJAN36H/1662031202.jpg"
+  },
+  {
+    "Name": "MGP Front Bumper",
+    "price": 1728,
+    "imgurl": "https://storage.googleapis.com/spares/images/parts/24GZC6XM9H/1654673979.jpg"
+  },
+  {
+    "Name": "Honda Front Wheel Bearing",
+    "price": 1731,
+    "imgurl": "https://storage.googleapis.com/spares/images/parts/M4MBZSZQ82/1658568722.jpg"
+  },
+  {
+    "Name": "Febi Bilstein Stub Axle",
+    "price":  7018,
+    "imgurl": "https://storage.googleapis.com/spares/new_parts_images/Axle.jpg"
   }
 ]

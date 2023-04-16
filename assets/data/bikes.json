@@ -1,0 +1,32 @@
+[
+    {
+      "Name": "2018 KTM 200 Duke",
+      "price": 98000,
+      "imgurl": "https://bd.gaadicdn.com/upload/usedbikesimages/2020/07/5f12d3053c3e8.jpeg"
+    },
+    {
+      "Name": "2016 Royal Enfield classic",
+      "price": 90000,
+      "imgurl": "https://bd.gaadicdn.com/upload/usedbikesimages/2020/07/5f11453cd3b20.jpeg"
+    },
+    {
+      "Name": "2015 Hero Super Splender",
+      "price": 45000,
+      "imgurl": "https://bd.gaadicdn.com/upload/usedbikesimages/2020/07/5f10171b3a4e5.jpg"
+    },
+    {
+      "Name": "2016 Yammaha YZF",
+      "price": 70000,
+      "imgurl": "https://bd.gaadicdn.com/upload/usedbikesimages/2020/03/5e5b350426829.jpg"
+    },
+    {
+      "Name": "2016 Honda CB Unicorn",
+      "price": 65000,
+      "imgurl": "https://bd.gaadicdn.com/upload/usedbikesimages/2020/01/5e1d839a3004b.jpg"
+    },
+    {
+      "Name": "2019 TVS appache RTR 2004v",
+      "price": 100000,
+      "imgurl": "https://bd.gaadicdn.com/upload/usedbikesimages/2019/11/5dc5b65e450a2.jpg"
+    }
+  ]

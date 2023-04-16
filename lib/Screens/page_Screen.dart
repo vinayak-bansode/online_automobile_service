@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:online_automobile_service/Screens/bikestore.dart';
 import 'package:online_automobile_service/Screens/dashboard.dart';
 import 'package:online_automobile_service/Screens/storeitem.dart';
 import 'package:online_automobile_service/Screens/washing.dart';
@@ -106,18 +107,18 @@ class _IconclassState extends State<Iconclass> {
             ],
           ),
         ),
-        InkWell(
-          onTap: () => Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => const Dashboard(),
-              )),
-          child: Padding(
-            padding: const EdgeInsets.all(30.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Column(
+        Padding(
+          padding: const EdgeInsets.all(30.0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              InkWell(
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const Dashboard(),
+                    )),
+                child: Column(
                   children: [
                     SizedBox(
                       height: 60,
@@ -134,7 +135,14 @@ class _IconclassState extends State<Iconclass> {
                     )
                   ],
                 ),
-                Column(
+              ),
+              InkWell(
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const TimeSlotSelectionScreen(),
+                    )),
+                child: Column(
                   children: [
                     SizedBox(
                       height: 60,
@@ -151,7 +159,14 @@ class _IconclassState extends State<Iconclass> {
                     )
                   ],
                 ),
-                Column(
+              ),
+              InkWell(
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const Bikestoreitem(),
+                    )),
+                child: Column(
                   children: [
                     SizedBox(
                       height: 60,
@@ -168,8 +183,8 @@ class _IconclassState extends State<Iconclass> {
                     )
                   ],
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
         InkWell(
