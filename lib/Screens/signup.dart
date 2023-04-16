@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:online_automobile_service/Screens/dashboard.dart';
-import 'package:online_automobile_service/Screens/main_page.dart';
+import 'package:online_automobile_service/Screens/carreparing.dart';
+import 'package:online_automobile_service/Screens/bottomnavbar.dart';
 import '../styles/colors.dart';
 
 class SignupPage extends StatefulWidget {

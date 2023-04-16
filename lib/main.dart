@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:online_automobile_service/Screens/login.dart';
 import 'package:online_automobile_service/Screens/signup.dart';
 
-import 'Screens/main_page.dart';
+import 'Screens/bottomnavbar.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../services/services.dart';
 import '../styles/colors.dart';
-import 'main_page.dart';
+import 'bottomnavbar.dart';
 
 class LoginPage extends StatefulWidget {
   @override

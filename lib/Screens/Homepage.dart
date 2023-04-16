@@ -3,7 +3,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:online_automobile_service/Screens/bikestore.dart';
-import 'package:online_automobile_service/Screens/dashboard.dart';
+import 'package:online_automobile_service/Screens/carreparing.dart';
 import 'package:online_automobile_service/Screens/storeitem.dart';
 import 'package:online_automobile_service/Screens/washing.dart';
 import 'package:url_launcher/url_launcher.dart';
